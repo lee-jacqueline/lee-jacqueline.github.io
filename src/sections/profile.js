@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 
+var ProfilePic = require('../../public/images/profile.jpg') ;
+
 class Profile extends Component {
     render() {
         return (
             <div>
-                <img src="images/profile.jpg" class="margin-top-76 img-circle center-block profile_picture" alt="profile picture">
+                <img src={ProfilePic} className = "margin-top-76 img-circle center-block profile_picture" alt="profile picture" />
                 <h1 class="text-capitalize text-center">Jeanetter benson</h1>
                 <h3 class="text-capitalize text-center">UX/UI designer</h3>
                 <hr/>
