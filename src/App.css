@@ -447,7 +447,7 @@ a.text-danger:focus {
   color: #843534; }
 
 .bg-primary {
-  color: #fff; }
+  color: #666; }
 
 .bg-primary {
   background-color: #337ab7; }
@@ -2651,7 +2651,9 @@ hr {
 
 #about_me {
   padding-top: 90px;
-  padding-bottom: 69px; }
+  padding-bottom: 69px; 
+  margin-left: 12%;
+  margin-right: 12%; }
   #about_me h3 {
     color: #f5a623;
     text-transform: capitalize; }
@@ -3071,7 +3073,6 @@ figure {
       position: relative;
       display: block;
       font-family: 'FontAwesome';
-      speak: none;
       font-style: normal;
       font-weight: normal;
       font-variant: normal;

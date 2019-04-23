@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
+import NavBar from './sections/navbar';
 import Profile from './sections/profile';
-import './App.css';
+import Portfolio from './sections/portfolio';
+import AboutMe from './sections/aboutme';
+import Skills from './sections/skills';
 
 class App extends Component {
   render() {
     return (
-      <Profile />
+      <div>
+        <NavBar />
+        <Profile />
+        <AboutMe />
+        <Skills />
+      </div>
     );
   }
 }
